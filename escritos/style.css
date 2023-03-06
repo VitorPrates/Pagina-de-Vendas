@@ -1,0 +1,155 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: green;
+  display: grid;
+  place-items: center;
+}
+header h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+
+main {
+  margin-top: 0px;
+  padding: 10px 5px 0px 5px;
+}
+main p {
+  margin: 10px 0px 10px 0px;
+}
+main .sessao-compre-video {
+  width: 100%;
+  height: 350px;
+}
+main .sessao-compre-video .video-titulo {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.3em;
+  margin: 0px auto 7px auto;
+}
+main .sessao-compre-video .video-anuncio1 {
+  max-width: 100%;
+  height: 210px;
+  background-color: green;
+  background-image: url("../imagens/pexels-dana-tentis-356289 (1).jpg");
+  background-size: cover;
+}
+main .sessao-compre-video .video-anuncio1 iframe {
+  width: 100%;
+  height: 100%;
+}
+main .sobre-o-produto {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+main .sobre-o-produto .produto-descricao {
+  height: 65%;
+  display: flex;
+}
+main .sobre-o-produto .produto-foto {
+  width: 30%;
+  height: 90%;
+  background-image: url("../imagens/pexels-melvin-buezo-2529148.jpg");
+  background-size: cover;
+  background-position-x: -15px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid;
+}
+main .sobre-o-produto .produto-info {
+  width: 65%;
+  height: 90%;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid;
+  overflow: auto;
+  padding: 7px;
+  box-sizing: border-box;
+}
+main .sobre-o-produto .produto-info h3 {
+  margin: 5px auto 0px auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main .sobre-o-produto .produto-info .init-preco {
+  margin: 5px 0px 0px 0px;
+  font-weight: bolder;
+}
+main .sobre-o-produto .produto-info .init-preco span {
+  font-weight: normal;
+  color: red;
+  text-decoration: line-through;
+}
+main .sobre-o-produto .produto-info .end-preco {
+  margin: 5px 0px 0px 0px;
+  font-weight: bolder;
+}
+main .sobre-o-produto .produto-info .end-preco span {
+  color: green;
+}
+main .sobre-o-produto .result-info {
+  width: 65%;
+  height: 90%;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid;
+  overflow: auto;
+  padding: 7px;
+  box-sizing: border-box;
+}
+main .sobre-o-produto .result-info h3 {
+  margin: 5px auto 0px auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main .sobre-o-produto .result-info p {
+  text-align: center;
+  padding: 2px;
+}
+
+.botao-comprar {
+  width: 70%;
+  height: 30px;
+  background-color: rgb(0, 167, 11);
+  padding: 10px;
+  margin: 15px auto 0px auto;
+  display: grid;
+  place-items: center;
+  border-radius: 50px;
+  border: 1.5px solid black;
+  color: black;
+  transition: 0.3s;
+}
+
+.botao-comprar:active {
+  margin-top: 18px;
+  width: calc(70% - 20px);
+  height: 25px;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  margin-top: 10px;
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
