@@ -164,6 +164,7 @@ main
     border: 1.5px solid black;
     color: black;
     transition: .3s;
+    user-select: none;
 }
 .botao-comprar:active
 {
